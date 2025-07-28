@@ -1,0 +1,45 @@
+name: Backup
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  - cron: "11 7 * * *" # daily at 7:11 AM UTC
+
+permissions:
+  contents: write
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    if: ${{ !github.event.repository.is_template }}
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-go@v5
+      with:
+        go-version: "stable"
+    - name: Create run.sh if it doesn't exist
+      run: |
+        [ -f "run.sh" ] && exit 0
+        echo "#!/bin/bash" > run.sh
+        if [[ "$REPO_DESC" == @* ]] || [[ "$REPO_DESC" == did:* ]]; then
+          echo "./backup.sh $REPO_DESC" >> run.sh
+        else
+          echo "# ./backup.sh @bsky.app" >> run.sh
+        fi
+        chmod +x run.sh
+        echo "Created run.sh"
+        echo -e "# Scheduled Bluesky backup\n\nFor `$REPO_DESC`." > README.md 
+      env:
+        REPO_DESC: ${{ github.event.repository.description }}
+    - name: Run the scraper
+      run: |
+        ./run.sh
+    - name: Commit and push
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        git commit -m "$(date -u)" || exit 0
+        git pull --rebase
+        git push

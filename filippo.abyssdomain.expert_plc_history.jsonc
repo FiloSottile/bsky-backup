@@ -1,0 +1,84 @@
+{
+  "alsoKnownAs": [
+    "at://filippo.bsky.social"
+  ],
+  "prev": null,
+  "rotationKeys": [
+    "did:key:zQ3shhCGUqDKjStzuDxPkTxN6ujddP4RkEKJJouJGRRkaLGbg",
+    "did:key:zQ3shpKnbdPx3g3CmPf5cRVTPe1HtSwVn5ish3wSnDPQCbLJK"
+  ],
+  "services": {
+    "atproto_pds": {
+      "endpoint": "https://bsky.social",
+      "type": "AtprotoPersonalDataServer"
+    }
+  },
+  "sig": "KDX3U_4UKc4V7k7qFpEFacDTA9hsrXELf8eK8IRG7qsXncw1U35mqlBQi-tYd9Unxt-elZxNe-1S0Nm8ftkrIA",
+  "type": "plc_operation",
+  "verificationMethods": {
+    "atproto": "did:key:zQ3shXjHeiBuRCKmM36cuYnm7YEMzhGnCmCyW92sRJ9pribSF"
+  }
+}
+{
+  "alsoKnownAs": [
+    "at://filippo.io"
+  ],
+  "prev": "bafyreif6tmvdzbdxotwlmld25qd3327rybsavm477gl6s365mgpnb52wy4",
+  "rotationKeys": [
+    "did:key:zQ3shhCGUqDKjStzuDxPkTxN6ujddP4RkEKJJouJGRRkaLGbg",
+    "did:key:zQ3shpKnbdPx3g3CmPf5cRVTPe1HtSwVn5ish3wSnDPQCbLJK"
+  ],
+  "services": {
+    "atproto_pds": {
+      "endpoint": "https://bsky.social",
+      "type": "AtprotoPersonalDataServer"
+    }
+  },
+  "sig": "0pAGQTXYrCtRQ20IY8B-rr4QEA4eFt7AJdK-YHPHopoZ_MFa6Br_jhx5NHxEvDRKMXBvJ1wSslZFjaNLY5gW9w",
+  "type": "plc_operation",
+  "verificationMethods": {
+    "atproto": "did:key:zQ3shXjHeiBuRCKmM36cuYnm7YEMzhGnCmCyW92sRJ9pribSF"
+  }
+}
+{
+  "alsoKnownAs": [
+    "at://filippo.abyssdomain.expert"
+  ],
+  "prev": "bafyreichrftsj5ixfbovas3gu7qdma27c7swovvbahndabsnldxhdbkota",
+  "rotationKeys": [
+    "did:key:zQ3shhCGUqDKjStzuDxPkTxN6ujddP4RkEKJJouJGRRkaLGbg",
+    "did:key:zQ3shpKnbdPx3g3CmPf5cRVTPe1HtSwVn5ish3wSnDPQCbLJK"
+  ],
+  "services": {
+    "atproto_pds": {
+      "endpoint": "https://bsky.social",
+      "type": "AtprotoPersonalDataServer"
+    }
+  },
+  "sig": "HMQW-8t8XMnbL2s-RUmkeAeKW-FaNd43M8y41A-3jyNhRUAPxz0n_PR3fT0PKaUbNBZNHhDVJ8SNFy988aXVvg",
+  "type": "plc_operation",
+  "verificationMethods": {
+    "atproto": "did:key:zQ3shXjHeiBuRCKmM36cuYnm7YEMzhGnCmCyW92sRJ9pribSF"
+  }
+}
+{
+  "alsoKnownAs": [
+    "at://filippo.abyssdomain.expert"
+  ],
+  "prev": "bafyreiagy4a24yfr4lfxt2d2olsqshq4cyyhurkvuy6dte4oz7bvmu74ny",
+  "rotationKeys": [
+    "did:key:zQ3shhCGUqDKjStzuDxPkTxN6ujddP4RkEKJJouJGRRkaLGbg",
+    "did:key:zQ3shpKnbdPx3g3CmPf5cRVTPe1HtSwVn5ish3wSnDPQCbLJK"
+  ],
+  "services": {
+    "atproto_pds": {
+      "endpoint": "https://oyster.us-east.host.bsky.network",
+      "type": "AtprotoPersonalDataServer"
+    }
+  },
+  "sig": "3OGrEBX_mj0-rEuF3Z8vGxNatfj6BTQtzQvl1jFAU2MAzJ3vWGxKTiGfXyc-ITz3wuH0xQ8akZ75QVjKnUEWVA",
+  "type": "plc_operation",
+  "verificationMethods": {
+    "atproto": "did:key:zQ3shSwgzsJgdCZ5BK6QjwsSA1WUfU7RrmLKaE18CsHfLURSU"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "did": "did:plc:x2nsupeeo52oznrmplwapppl",
+  "verificationMethods": {
+    "atproto": "did:key:zQ3shSwgzsJgdCZ5BK6QjwsSA1WUfU7RrmLKaE18CsHfLURSU"
+  },
+  "rotationKeys": [
+    "did:key:zQ3shhCGUqDKjStzuDxPkTxN6ujddP4RkEKJJouJGRRkaLGbg",
+    "did:key:zQ3shpKnbdPx3g3CmPf5cRVTPe1HtSwVn5ish3wSnDPQCbLJK"
+  ],
+  "alsoKnownAs": [
+    "at://filippo.abyssdomain.expert"
+  ],
+  "services": {
+    "atproto_pds": {
+      "type": "AtprotoPersonalDataServer",
+      "endpoint": "https://oyster.us-east.host.bsky.network"
+    }
+  }
+}

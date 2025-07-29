@@ -1,0 +1,26 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/multikey/v1",
+    "https://w3id.org/security/suites/secp256k1-2019/v1"
+  ],
+  "id": "did:plc:x2nsupeeo52oznrmplwapppl",
+  "alsoKnownAs": [
+    "at://filippo.abyssdomain.expert"
+  ],
+  "verificationMethod": [
+    {
+      "id": "did:plc:x2nsupeeo52oznrmplwapppl#atproto",
+      "type": "Multikey",
+      "controller": "did:plc:x2nsupeeo52oznrmplwapppl",
+      "publicKeyMultibase": "zQ3shSwgzsJgdCZ5BK6QjwsSA1WUfU7RrmLKaE18CsHfLURSU"
+    }
+  ],
+  "service": [
+    {
+      "id": "#atproto_pds",
+      "type": "AtprotoPersonalDataServer",
+      "serviceEndpoint": "https://oyster.us-east.host.bsky.network"
+    }
+  ]
+}

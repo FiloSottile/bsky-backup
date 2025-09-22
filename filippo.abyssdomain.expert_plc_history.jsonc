@@ -82,3 +82,25 @@
     "atproto": "did:key:zQ3shSwgzsJgdCZ5BK6QjwsSA1WUfU7RrmLKaE18CsHfLURSU"
   }
 }
+{
+  "alsoKnownAs": [
+    "at://filippo.abyssdomain.expert"
+  ],
+  "prev": "bafyreihpy7ihz7s42hphtuxcji6ovmaxrfdzr6kebxs4flsemiqfinuowy",
+  "rotationKeys": [
+    "did:key:zQ3shhGD8CUiLox4xWbwXbLiXHsR7xJEoTDrrykLTCHr2K2iW",
+    "did:key:zQ3shhCGUqDKjStzuDxPkTxN6ujddP4RkEKJJouJGRRkaLGbg",
+    "did:key:zQ3shpKnbdPx3g3CmPf5cRVTPe1HtSwVn5ish3wSnDPQCbLJK"
+  ],
+  "services": {
+    "atproto_pds": {
+      "endpoint": "https://oyster.us-east.host.bsky.network",
+      "type": "AtprotoPersonalDataServer"
+    }
+  },
+  "sig": "gspUMc7RmZwEGJOlQBoJigKzcq5LZxFaJfEdYyF2rBUDIJQ5v-30FsQRUqn_rqka1SLRpABbw3A5s9LG1K9iPg",
+  "type": "plc_operation",
+  "verificationMethods": {
+    "atproto": "did:key:zQ3shSwgzsJgdCZ5BK6QjwsSA1WUfU7RrmLKaE18CsHfLURSU"
+  }
+}

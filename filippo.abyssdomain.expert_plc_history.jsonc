@@ -126,3 +126,24 @@
     "atproto": "did:key:zQ3shSwgzsJgdCZ5BK6QjwsSA1WUfU7RrmLKaE18CsHfLURSU"
   }
 }
+{
+  "alsoKnownAs": [
+    "at://filippo.abyssdomain.expert"
+  ],
+  "prev": "bafyreiegrkdx7wuz772smk2li44arg6rhdgsntv3mw2m27brfynj5wrl3q",
+  "rotationKeys": [
+    "did:key:zDnaex81jaRgeBeS9uNrJRYDBfvJVrtN1cdrKez7Jq3GRy6Ck",
+    "did:key:zQ3shQvKdvdJEssYj7tXXYkABr9RYrLBFfFaopZJdZHqisHMa"
+  ],
+  "services": {
+    "atproto_pds": {
+      "endpoint": "https://selfhosted.social",
+      "type": "AtprotoPersonalDataServer"
+    }
+  },
+  "sig": "bjWdeXkDtL3KJVovFDrk3knnbmybah7W22gqd-3DzTQnslCCqzuUJhBsGhUnVV7W_k1rCr2FJgxbXonyeV31kQ",
+  "type": "plc_operation",
+  "verificationMethods": {
+    "atproto": "did:key:zQ3shvhgYhrbzuqYcqAYBMeuEk5ncuLTqtwqdbE4bVBNEhZr8"
+  }
+}

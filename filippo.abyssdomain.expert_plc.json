@@ -1,12 +1,11 @@
 {
   "did": "did:plc:x2nsupeeo52oznrmplwapppl",
   "verificationMethods": {
-    "atproto": "did:key:zQ3shSwgzsJgdCZ5BK6QjwsSA1WUfU7RrmLKaE18CsHfLURSU"
+    "atproto": "did:key:zQ3shvhgYhrbzuqYcqAYBMeuEk5ncuLTqtwqdbE4bVBNEhZr8"
   },
   "rotationKeys": [
     "did:key:zDnaex81jaRgeBeS9uNrJRYDBfvJVrtN1cdrKez7Jq3GRy6Ck",
-    "did:key:zQ3shhCGUqDKjStzuDxPkTxN6ujddP4RkEKJJouJGRRkaLGbg",
-    "did:key:zQ3shpKnbdPx3g3CmPf5cRVTPe1HtSwVn5ish3wSnDPQCbLJK"
+    "did:key:zQ3shQvKdvdJEssYj7tXXYkABr9RYrLBFfFaopZJdZHqisHMa"
   ],
   "alsoKnownAs": [
     "at://filippo.abyssdomain.expert"
@@ -14,7 +13,7 @@
   "services": {
     "atproto_pds": {
       "type": "AtprotoPersonalDataServer",
-      "endpoint": "https://oyster.us-east.host.bsky.network"
+      "endpoint": "https://selfhosted.social"
     }
   }
 }

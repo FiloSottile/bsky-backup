@@ -13,14 +13,14 @@
       "id": "did:plc:x2nsupeeo52oznrmplwapppl#atproto",
       "type": "Multikey",
       "controller": "did:plc:x2nsupeeo52oznrmplwapppl",
-      "publicKeyMultibase": "zQ3shSwgzsJgdCZ5BK6QjwsSA1WUfU7RrmLKaE18CsHfLURSU"
+      "publicKeyMultibase": "zQ3shvhgYhrbzuqYcqAYBMeuEk5ncuLTqtwqdbE4bVBNEhZr8"
     }
   ],
   "service": [
     {
       "id": "#atproto_pds",
       "type": "AtprotoPersonalDataServer",
-      "serviceEndpoint": "https://oyster.us-east.host.bsky.network"
+      "serviceEndpoint": "https://selfhosted.social"
     }
   ]
 }

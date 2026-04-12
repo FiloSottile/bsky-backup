@@ -8,7 +8,8 @@
     "did:key:zQ3shQvKdvdJEssYj7tXXYkABr9RYrLBFfFaopZJdZHqisHMa"
   ],
   "alsoKnownAs": [
-    "at://filippo.abyssdomain.expert"
+    "at://filippo.abyssdomain.expert",
+    "at://filippo.io"
   ],
   "services": {
     "atproto_pds": {
